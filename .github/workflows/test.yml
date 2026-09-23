@@ -19,5 +19,8 @@ jobs:
       - name: Install the cask
         run: |
           set -e
+          # The cask ships the same command as the formula: they are alternatives.
+          brew uninstall limoni-voice
           brew install --cask thebanri/tap/limoni-voice-app
+          limoni-voice --version
           test -d "/Applications/Limoni Voice.app"

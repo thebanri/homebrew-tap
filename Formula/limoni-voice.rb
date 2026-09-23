@@ -34,8 +34,9 @@ class LimoniVoice < Formula
     <<~TEXT
       Screen sharing needs ffmpeg and mpv:
         brew install ffmpeg mpv
-      On macOS, "brew install --cask thebanri/tap/limoni-voice-app" also installs the app,
-      which opens limoni:// invite links.
+      On macOS the cask installs Limoni Voice.app instead, which also opens limoni://
+      invite links; it includes this command, so use one or the other:
+        brew uninstall limoni-voice && brew install --cask thebanri/tap/limoni-voice-app
     TEXT
   end
 

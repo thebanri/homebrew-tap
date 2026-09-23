@@ -14,6 +14,7 @@ cask "limoni-voice-app" do
   auto_updates true
   depends_on macos: ">= :monterey"
 
+  # Installs the same command as the limoni-voice formula: use one or the other.
   app "Limoni Voice.app"
   binary "#{appdir}/Limoni Voice.app/Contents/MacOS/limoni-voice"
 
