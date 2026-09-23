@@ -1,0 +1,23 @@
+name: Test
+
+# Installs the formula and the cask on a Mac after every change, the way users do.
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  install:
+    runs-on: macos-latest
+    steps:
+      - name: Install and run the formula
+        run: |
+          set -e
+          brew install thebanri/tap/limoni-voice
+          limoni-voice --version
+          brew test thebanri/tap/limoni-voice
+
+      - name: Install the cask
+        run: |
+          set -e
+          brew install --cask thebanri/tap/limoni-voice-app
+          test -d "/Applications/Limoni Voice.app"
