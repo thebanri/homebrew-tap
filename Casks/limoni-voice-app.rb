@@ -1,9 +1,9 @@
 cask "limoni-voice-app" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.17.2"
-  sha256 arm:   "5044c99f1eefa4995d17405fbb98b0df1a342c9c37e02af9203f3f20cc81523f",
-         intel: "19afd948ade822bbe1aee590f9433dbf08a5f6c059c4e49d2d386372d19b480e"
+  version "1.17.3"
+  sha256 arm:   "bedd95063d664559658205eedbec5198d6ff0571da95503745ea58c1de1bd1cb",
+         intel: "277341581835c95ed3178850681e7975fdd6566418cdb989260755a99b6a173c"
 
   url "https://github.com/thebanri/limoni-voice/releases/download/v#{version}/Limoni-Voice_v#{version}_macOS_#{arch}.app.zip"
   name "Limoni Voice"

@@ -1,28 +1,28 @@
 class LimoniVoice < Formula
   desc "Terminal-native, end-to-end encrypted P2P voice chat and screen sharing"
   homepage "https://github.com/thebanri/limoni-voice"
-  version "1.17.2"
+  version "1.17.3"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.2/limoni-voice_v1.17.2_darwin_arm64.tar.gz"
-      sha256 "b619327f5d52d89cecba5d4e79df85179133a38d415d02741574e424a2d1f05a"
+      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.3/limoni-voice_v1.17.3_darwin_arm64.tar.gz"
+      sha256 "804b421cac955b382fff973b9d1b981249039e5a4a134f7654bb789455728dbe"
     end
     on_intel do
-      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.2/limoni-voice_v1.17.2_darwin_amd64.tar.gz"
-      sha256 "ee9ee2b9c5c0b8319218002698d6a9e1f7330dc0bc0fc3cdd5fc9c05ef913164"
+      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.3/limoni-voice_v1.17.3_darwin_amd64.tar.gz"
+      sha256 "00f5666dda854b1ed969a7b9ed80344d0212afcde4ab35c22c1efd77e2c96a3c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.2/limoni-voice_v1.17.2_linux_arm64.tar.gz"
-      sha256 "4a8c7259c63f43bf85896db49622dd188eeec293ce934e04fabc1d1b39fbc959"
+      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.3/limoni-voice_v1.17.3_linux_arm64.tar.gz"
+      sha256 "ba428df340a9e21b32be9a333e90e58832a2c00ee6d09ef3c8edda81c8fe8b62"
     end
     on_intel do
-      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.2/limoni-voice_v1.17.2_linux_amd64.tar.gz"
-      sha256 "f89e86c859f21d6afb31b641a33fea8d48211166884dfc22784ea509d90e28ff"
+      url "https://github.com/thebanri/limoni-voice/releases/download/v1.17.3/limoni-voice_v1.17.3_linux_amd64.tar.gz"
+      sha256 "a370efebe8b9b7ca1bf23cf19dcd04a3846dbe07762dbe4635905b87a6885a48"
     end
   end
 
